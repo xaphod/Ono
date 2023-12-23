@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name     = 'Ono'
-  s.version  = '2.1.2'
+  s.version  = '2.1.3'
   s.license  = 'MIT'
   s.summary  = 'A sensible way to deal with XML & HTML.'
   s.homepage = 'https://github.com/mattt/Ono'
   s.social_media_url = 'https://twitter.com/mattt'
   s.authors  = { 'Mattt' => 'mattt@me.com' }
-  s.source   = { git: 'https://github.com/mattt/Ono.git', tag: s.version }
+  s.source   = { git: 'https://github.com/xaphod/Ono.git', tag: s.version }
   s.source_files = 'Source'
   s.requires_arc = true
 
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.8'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
